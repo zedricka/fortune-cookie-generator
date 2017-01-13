@@ -1,9 +1,17 @@
 #fortune-cookie-text {
-  border: 5px solid #333399;
+  border: 5px solid black;
   padding: 25px;
+  height: 120px;
+  width: 190px;
+  text-align: center;
+  margin: 5px;
 }
 
 #previous-fortunes {
-  border: 5px solid #333399;
+  border: 5px solid black;
   padding: 25px;
+  height: 120px;
+  width: 190px;
+  text-align: center;
+  margin: 5px;
 }

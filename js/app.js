@@ -1,12 +1,18 @@
-function generateFortuneCookie () {
-  var node = document.createElement("LI");
-  var textnode = document.createTextNode(fortuneList);
-  node.appendChild(textnode);
-  document.getElementById("fortune-cookie-text").appendChild(node);
+// My Array
+var fortunesList = ["Incredible", "Amazing", "Wow", "Bleh"];
+
+//Randomize
+for(var rawr=0; rawr < 4; rawr++){
+  console.log (fortunesList[rawr]);
 }
 
-var fortuneList = ["have good luck", "see something amazing", "do something amazing", "have something bad happen to you", "have nothing happen to you"];
-for (var i = 4; i>= 0; i--){
-  randomFortune = cloneList.splice(Math.floor(Math.random() * (i + 1)), 1);
-  console.log("You will " + randomFortune + ".")
-}
+var random = fortunesList.splice[Math.floor(Math.random() * fortunesList.length)];
+
+function generateFortuneCookie () {
+
+} 
+// Appending fortune-cookie-text as li
+document.getElementById("fortune-cookie-text")
+
+// https://zenscript.wordpress.com/2013/11/23/how-to-pick-a-random-entry-out-of-an-array-javascript/
+// http://stackoverflow.com/questions/13484322/get-random-item-from-array-within-a-for-loop-then-remove-from-array
